@@ -11,7 +11,7 @@ router.get('/new', (req, res) => {
 router.post('/', async (req, res) => {
   // find user by email
   // if user exists, and using bcryptjs the password is equal to the password in the request body
-  if () {
+  if (true) {
     // add user id to the session
     // redirect to '/top-secret'
   }
